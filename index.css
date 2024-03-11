@@ -4,3 +4,10 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  width: 50%;
+  margin: 40px auto 0;
+}
