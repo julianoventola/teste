@@ -6,8 +6,42 @@
 }
 
 .title {
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
   width: 50%;
   margin: 40px auto 0;
+}
+
+.block {
+  background-color: red;
+  max-width: 700px;
+  width: 50%;
+  margin: 40px auto 0;
+}
+
+.block__text {
+  color: white;
+  font-size: 1rem;
+}
+
+.block__image {
+  width: 30%;
+}
+
+@media screen and (max-width : 768px) {
+
+  /* estilos para tablets */
+  .block {
+    background-color: blue;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .block {
+    background-color: red;
+    max-width: 100%;
+    margin: 0;
+    padding: 40px;
+  }
 }
